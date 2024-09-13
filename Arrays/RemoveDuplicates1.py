@@ -28,3 +28,15 @@
 # 1 <= nums.length <= 3 * 104
 # -100 <= nums[i] <= 100
 # nums is sorted in non-decreasing order.
+
+def removeDuplicates(self, nums: List[int]) -> int:
+        
+        if len(nums) == 0: 
+            return 0
+        
+        k = 1
+        for i in range(0, len(nums) - 1):
+            if nums[i] != nums[i + 1]:
+                nums[k] = nums[i + 1]
+                k += 1
+        return k
