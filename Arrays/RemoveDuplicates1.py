@@ -31,6 +31,8 @@
 
 ##### DIFF: EASY
 
+from typing import List
+
 def removeDuplicates(self, nums: List[int]) -> int:
         
         if len(nums) == 0: 
