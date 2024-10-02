@@ -137,13 +137,13 @@ def copyRandomList(head):
         return newHead
 
 
-llist = LinkedList(ListNode(1))
-llist.insert(2)
-llist.insert(3)
-llist.insert(4)
-llist.insert(5)
-llist.insert(6)
-llist.reverse()
-llist.print()
-newllist = LinkedList(copyRandomList(llist.head))
-newllist.print()
+# llist = LinkedList(ListNode(1))
+# llist.insert(2)
+# llist.insert(3)
+# llist.insert(4)
+# llist.insert(5)
+# llist.insert(6)
+# llist.reverse()
+# llist.print()
+# newllist = LinkedList(copyRandomList(llist.head))
+# newllist.print()
